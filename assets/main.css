@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.TodoApp {
+    width: 70%;
+    height: 60vh;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.createApp {
+    display: flex;
+}
+
+.updateApp {
+    display: none;
+}
+
+.responseApp {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.infoStrapi {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.idStrapi {
+    display: none;
+}
+
+.bottomApp {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.btn-response {
+    height: 30px;
+    margin-right: 10px;
+    padding: 0 1rem!important;
+}
+
+.homeWork {
+    font-size: 15px;
+}
